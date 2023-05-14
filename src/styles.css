@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+.navigation{
+    margin:0px;
+    padding:0px !important;
+    background: #bd2020 !important;
+    
+
+}
+
+.navigation .navbar{
+    border-radius:0px !important ;
+    background: #5b05057b !important;
+    border:none;
+
+}
+.navigation .navbar *{
+    color:white !important;
+}
+
+
+.h1-strong{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 13px;
+    margin-bottom:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.active{
+   background: #cc1717;
+}
+
+.navigation .navbar a:hover{
+    background: #cc1717 !important;
+}
+.jumbotron{
+    padding: 25px;
+    border-radius:5px;
+    text-align: center;
+
+}
+.navigation .navbar .dropdown-menu *{
+    color: black !important;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+

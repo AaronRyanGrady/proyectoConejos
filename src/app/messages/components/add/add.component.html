@@ -1,0 +1,25 @@
+<div class="col-lg-10">
+    <h3>{{title}}</h3>
+  <!---formulario envio mensaje--> 
+
+  <form #formAdd="ngForm" (ngSubmit)="onSubmit()">
+
+    <p>
+      <label >Para:</label>
+      <!--listado de seguidores -->
+    </p>
+
+    <p>
+      <label >Mensaje</label>
+      <!--listado de seguidores -->
+      <textarea name="text" #text="ngModel" [(ngModel)]="message.text" class="form-control" required></textarea>
+      <span *ngIf="!text.valid && text.touched">
+        el mensaje es obligatorio
+      </span>
+    
+    </p>
+    <input type="submit" value="{{title}}" class="btn btn-success">
+    
+  </form>
+</div>
+
